@@ -1,15 +1,10 @@
 #include <iostream>
 
-using namespace std;
-
-int array_sum(int array[], int n) {
-  if (n < 1) {
-    return 0;
-  }
-
+int sum_diagonal(int array[4][4]) {
   int total = 0;
-  for (int i = 0; i < n; i++) {
-    total = total + array[i];
+
+  for (int i = 0; i < 4; i++) {
+    total += array[i][i];
   }
 
   return total;

@@ -1,19 +1,22 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
-int min_element(int array[], int n) {
-  if (n < 1) {
-    return 0;
+void print_binary_str(string decimal_number) {
+  int new_decimal;
+  new_decimal = stoi(decimal_number);
+
+  if (new_decimal == 0) {
+    cout << "0" << endl;
   }
 
-  int min = array[0];
+  string binary_num;
 
-  for (int i = 1; i < n; i++) {
-    if (array[i] < min) {
-      min = array[i];
-    }
+  while (new_decimal > 0) {
+    binary_num = to_string(new_decimal % 2) + binary_num;
+
+    new_decimal = new_decimal / 2;
   }
 
-  return min;
+  cout << binary_num << endl;
 }

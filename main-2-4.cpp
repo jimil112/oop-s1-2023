@@ -1,18 +1,12 @@
 #include <iostream>
 
-extern int is_ascending(int array[], int n);
+int sum_min_max(int integers[], int length);
+
 int main() {
-  int array[5] = {1, 2, 3, 4, 5};
-  int n = sizeof(array) / sizeof(array[0]);
+    int arr[] = {9, 4, 1, 13, 6};
 
- bool outcome = is_ascending(array,n);
+    int sum = sum_min_max(arr, 5);
+    std::cout << "The sum of the minimum and maximum component is: " << sum << std::endl;
 
-if (outcome == true) {
-    std::cout << "true" << std::endl;
-} else {
-    std::cout << "false" << std::endl;
-}
-
-
-  return 0;
+    return 0;
 }

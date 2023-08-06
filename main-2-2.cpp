@@ -1,12 +1,15 @@
 #include <iostream>
+using namespace std;
 
-extern int max_element(int array[], int n);
+extern int binary_to_int(int binary_digits[], int number_of_digits);
+
 int main() {
-  int array[6] = {5, 2, 3, 4, 5, 6};
-  int n = sizeof(array) / sizeof(array[0]);
+  int binary_digits[] = {1, 0, 1, 0, 1, 1};
+  int number_of_binary_digits =
+      sizeof(binary_digits) / sizeof(binary_digits[0]);
 
-  std::cout << "The largest element in the array is " << max_element(array, n)
-            << std::endl;
+  cout << "Conversion from binary to decimal: "
+       << binary_to_int(binary_digits, number_of_binary_digits) << endl;
 
   return 0;
 }

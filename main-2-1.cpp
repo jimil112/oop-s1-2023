@@ -1,12 +1,10 @@
 #include <iostream>
+using namespace std;
 
-extern int min_element(int array[], int n);
+extern void print_binary_str(string decimal_number);
 int main() {
-  int array[6] = {5, 2, 3, 4, 5, 6};
-  int n = sizeof(array) / sizeof(array[0]);
-
-  std::cout << "The smallest element in the array is " << min_element(array, n)
-            << std::endl;
+  string decimal_number = "789";
+  print_binary_str(decimal_number);
 
   return 0;
 }

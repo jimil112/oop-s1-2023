@@ -1,11 +1,23 @@
 #include <iostream>
 
-extern double array_mean(int array[], int n);
+int is_identity(int array[10][10]);
+
 int main() {
-  int array[7] = {1, 2, 3, 4, 5, 6, 7};
+  int array[10][10] = {
+      {1, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+      {0, 0, 1, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+      {0, 0, 0, 0, 1, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+      {0, 0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+      {0, 0, 0, 0, 0, 0, 0, 0, 1, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 1}};
 
-  std::cout << "The average of the array is: " << array_mean(array, 7)
-            << std::endl;
+  int mat = is_identity(array);
 
+  if (mat == 1) {
+    std::cout << "1" << std::endl;
+  } else {
+    if (mat == 0) {
+      std::cout << "0" << std::endl;
+    }
+  }
   return 0;
 }

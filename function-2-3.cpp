@@ -1,26 +1,51 @@
 #include <iostream>
-
 using namespace std;
 
-void two_five_nine(int array[], int n) {
-  int num2 = 0;
-  int num5 = 0;
-  int num9 = 0;
-
-  for (int i = 0; i < n; i++) {
-    switch (array[i]) {
-      case 2:
-        num2++;
-        break;
-      case 5:
-        num5++;
-        break;
-      case 9:
-        num9++;
-        break;
-      default:
-        break;
-    }
+bool is_palindrome(int integers[], int length) {
+  if (length == 0 || length < 0) {
+    return false;
   }
-  std::cout << "2:" << num2 << ";5:" << num5 << ";9:" << num9 << ";" <<std::endl;
+
+  int left_num = 0;
+  int right_num = length - 1;
+
+  while (left_num < right_num) {
+    if (integers[left_num] != integers[right_num]) {
+      return false;
+    }
+
+    left_num++;
+    right_num--;
+  }
+
+  return true;
+}
+
+int sum_array_elements(int integers[], int length) {
+  if (length == 0 || length < 0) {
+    return -1;
+  }
+
+  int elements_sum = 0;
+
+  for (int i = 0; i < length; i++) {
+    elements_sum = elements_sum + integers[i];
+  }
+
+  return elements_sum;
+}
+
+int sum_if_palindrome(int integers[], int length) {
+  if (length == 0 || length < 0) {
+    return -1;
+  }
+
+  bool array_palindrome = is_palindrome(integers, length);
+
+  if (array_palindrome) {
+    int final_array = sum_array_elements(integers, length);
+    return final_array;
+  } else {
+    return -2;
+  }
 }

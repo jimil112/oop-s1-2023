@@ -1,12 +1,11 @@
 #include <iostream>
 
-extern int num_count(int array[], int n, int number);
-int main() {
-  int array[7] = {1, 2, 2, 4, 5, 5, 7};
-  int n = sizeof(array)/sizeof(array[0]);
-  int number = 2;
+void count_digits(int array[4][4]);
 
-  std::cout << "The number "<<number<< " appears "<< num_count(array, n, number) << " times." << std::endl;
+int main() {
+  int array[4][4] = {{1, 1, 1, 1}, {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}};
+
+  count_digits(array);
 
   return 0;
 }
