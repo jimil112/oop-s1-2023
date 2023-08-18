@@ -9,7 +9,7 @@ PersonList createPersonList(int numPersons) {
 
     // Looping to set default names and ages.
     for (int i = 0; i < numPersons; i++) {
-        personList.people[i].name = "John Doe";
+        personList.people[i].name = "Jane Doe";
         personList.people[i].age = 1;
     }
 
