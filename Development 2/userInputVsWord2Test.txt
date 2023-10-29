@@ -1,0 +1,29 @@
+userInputVsWord2Test (using vectors)
+
+Test case 1: All correct letters and positons 
+Word: nailed
+user input: nailed
+Expected output: 
+++++++
+good job you won
+Actual output:
+++++++
+good job you won
+
+Test case 2: no correct letters
+Word: strike
+user input: hhhhhh
+Expected output: xxxxx
+Actual output: xxxxxx
+
+Test case 3: correct letters no postitions
+Word: yellow
+user input: llyewo
+Expected output: ######
+Actual output: ######
+
+Test case 4: mix of all
+Word: nailed
+user input: nalixx
+Expected output: ++##xx
+Actual output: ++##xx

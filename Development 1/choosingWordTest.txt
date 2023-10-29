@@ -1,0 +1,26 @@
+choosingWord test: 
+
+Test 1:
+expected output: 
+nailed or coffee or yellow or inward or incase or strike
+actual output:
+nailed 
+
+Test 2
+expected output: 
+nailed or coffee or yellow or inward or incase or strike
+actual output:
+coffee
+
+Test 3
+expected output: 
+nailed or coffee or yellow or inward or incase or strike
+actual output:
+inward
+
+Test 4
+expected output: 
+nailed or coffee or yellow or inward or incase or strike
+actual output:
+strike
+

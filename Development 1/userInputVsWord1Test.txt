@@ -1,0 +1,29 @@
+userInputVsWord1Test
+
+Test case 1: All correct letters and positons 
+Word: coffee
+user input: coffee
+Expected output: ++++++
+Actual output: ++++++
+
+Test case 2: no correct letters
+Word: inward
+user input: llllll
+Expected output: xxxxxx
+Actual output: xxxxxx
+
+Test case 3: correct letters no postitions
+Word: strike
+user input: tsirek
+Expected output: ######
+Actual output: ######
+
+Test case 4: mix of all
+Word: strike
+user input: stxxxk
+Expected output: ++xxx#
+Actual output: ++xxx#
+
+
+
+

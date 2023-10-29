@@ -1,0 +1,25 @@
+choosingWord2Test:
+
+Test 1 
+Expected output:
+yes or six or one or dad or mum or app
+Actual output:
+one
+
+Test 2
+Expected output:
+yes or six or one or dad or mum or app
+Actual output:
+six
+
+Test 3 
+Expected output:
+yes or six or one or dad or mum or app
+Actual output:
+dad
+
+Test 4
+Expected output:
+yes or six or one or dad or mum or app
+Actual output:
+app

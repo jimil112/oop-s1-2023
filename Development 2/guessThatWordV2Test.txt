@@ -1,0 +1,46 @@
+guessThatWordV2Test
+
+Test Case 1: Normal Guessing
+Word: coffee
+
+User Input 1: aeiouy
+Expected output: x#x#xx
+Actual output: x#x#xx
+
+User Input 2: soffee
+Expected output: x+++++
+Actual output: x+++++
+
+User Input 2: coffee
+Expected output: 
+++++++
+You Guessed Correct!! You Win!!
+Actual output: 
+++++++
+You Guessed Correct!! You Win!!
+
+
+Test case 2: All incorecct
+
+Word: coffeee
+User Input 1-6: xxxxxx
+Expected output: xxxxxx
+Actual output: xxxxxx
+
+User Input 7: xxxxxx
+Expected output: 
+xxxxxx
+Better Luck Next Time. You Loose
+Actual output: xxxxxx
+Better Luck Next Time. You Loose
+
+Test Case 3: Correct Straight Away 
+Word: coffee
+User Input: coffee 
+Expected output:
+++++++
+You Guessed Correct!! You Win!!
+Actual output:
+++++++
+You Guessed Correct!! You Win!!
+

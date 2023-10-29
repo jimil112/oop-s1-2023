@@ -1,0 +1,15 @@
+userInputTest
+
+Test Case 1: Testing for when input isn't 6 letters long. 
+User Input: III
+Expected output: Please enter a six-letter word.
+Actual output:Please enter a six-letter word.
+
+Test Case 2: Testing what happens after 7 attempts: 
+User input: (iiiiii)*6
+Expected output: Game Over
+Actual output:Game Over
+=
+
+
+

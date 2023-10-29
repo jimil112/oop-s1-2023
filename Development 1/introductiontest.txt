@@ -1,0 +1,13 @@
+Introduction test case: (Test for correct printing) 
+
+Expected output: 
+In this game it will be your job to guess the correct 6 letter word within 7 attempts if you are not able to do that, you LOOSE!!!
+x will appear when you guess the incorrect letter
++ will appear when you guess the correct letter in correct position
+# will appear when you guess the correct letter in wrong position
+
+Actual output:
+In this game it will be your job to guess the correct 6 letter word within 7 attempts if you are not able to do that, you LOOSE!!!
+x will appear when you guess the incorrect letter
++ will appear when you guess the correct letter in correct position
+# will appear when you guess the correct letter in wrong position

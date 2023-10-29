@@ -1,0 +1,81 @@
+GuessThatWordFinalTest
+
+Art dirver test case:
+art ():
+expected output:
+  ___  _  _  ____  ____  ____    ____  _  _   __  ____    _  _   __  ____  ____  _
+ / __)/ )( \(  __)/ ___)/ ___)  (_  _)/ )( \ / _\(_  _)  / )( \ /  \(  _ \(    \/ \ 
+( (_ \) \/ ( ) _) \___ \\___ \    )(  ) __ (/    \ )(    \ /\ /(  O ))   / ) D (\_/ 
+ \___/\____/(____)(____/(____/   (__) \_)(_/\_/\_/(__)   (_/\_) \__/(__\_)(____/(_)
+
+actual output:
+  ___  _  _  ____  ____  ____    ____  _  _   __  ____    _  _   __  ____  ____  _
+ / __)/ )( \(  __)/ ___)/ ___)  (_  _)/ )( \ / _\(_  _)  / )( \ /  \(  _ \(    \/ \ 
+( (_ \) \/ ( ) _) \___ \\___ \    )(  ) __ (/    \ )(    \ /\ /(  O ))   / ) D (\_/ 
+ \___/\____/(____)(____/(____/   (__) \_)(_/\_/\_/(__)   (_/\_) \__/(__\_)(____/(_)
+
+Test Case 1: Easy Mode
+User input: 2= easy
+word:yes
+User input 1: aei
+Expected output: x+x
+Actual output: x+x
+
+User input 2: yes
+Expected output: 
++++
+You Guessed Correct!! You Win!! :)
+Actual output: 
++++
+You Guessed Correct!! You Win!! :)
+
+Test Case 2: Easy mode all incrroect 
+User input: 2= easy
+User input 1-7:III
+Expected output: 
+xxx
+Better Luck Next Time. You Loose. :(
+Actual output:
+xxx
+Better Luck Next Time. You Loose. :(
+
+Test Case 3: Easy Mode
+User input: 1= hard
+word:nailed
+
+User input 1: aeiouy
+Expected output: ##+xxx
+Actual output: ##+xxx
+
+User input 2: hailed
+Expected output: 
+x+++++
+Actual output: 
+x+++++
+
+User input 2: nailed
+Expected output: 
+++++++
+You Guessed Correct!! You Win!! :)
+Actual output: 
+++++++
+You Guessed Correct!! You Win!! :)
+
+Test Case 4: Hard mode
+User input: 1=hard
+User input 1-7:III
+Expected output: 
+xxxxxx
+Better Luck Next Time. You Loose. :(
+Actual output:
+xxxxxx
+Better Luck Next Time. You Loose. :(
+
+
+
+
+
+
+
+
+

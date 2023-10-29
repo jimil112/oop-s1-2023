@@ -1,0 +1,46 @@
+guessThatWordV1Test
+
+Test Case 1: Normal Guessing
+Word: nailed
+
+User Input 2: aeioum
+Expected output: x+x#xx
+Actual output: x+x#xx
+
+User Input 2: bailed
+Expected output: xxx+#x
+Actual output: xxx+#x
+
+User Input 2: nailed
+Expected output: 
+++++++
+You Guessed Correct!! You Win!!
+Actual output: 
+++++++
+You Guessed Correct!! You Win!!
+
+
+Test case 2: All incorecct
+Word: nailed
+
+User Input 1-6: xxxxxx
+Expected output: xxxxxx
+Actual output: xxxxxx
+
+User Input 7: xxxxxx
+Expected output: 
+xxxxxx
+Better Luck Next Time. You Loose
+Actual output: xxxxxx
+Better Luck Next Time. You Loose
+
+Test Case 3: Correct Straight Away 
+Word: Nailed 
+User Input: nailed 
+Expected output:
+++++++
+You Guessed Correct!! You Win!!
+Actual output:
+++++++
+You Guessed Correct!! You Win!!
+

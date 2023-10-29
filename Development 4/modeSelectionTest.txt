@@ -1,0 +1,16 @@
+modeSelectionTest
+
+Test case 1 
+User Input: 1 
+Expected output: 1
+Actual output: 1
+
+Test case 2 
+User Input: 2 
+Expected output: 2
+Actual output: 2
+
+Test case 3 
+User Input: 3
+Expected output: Invalid Input, Enter 1 for hard or 2 for easy.
+Actual output: Invalid Input, Enter 1 for hard or 2 for easy.

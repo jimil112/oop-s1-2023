@@ -1,0 +1,47 @@
+guessThatWordV3Test
+
+Test Case 1: Normal Guessing
+Word: six
+
+User Input 1: aei
+Expected output: xx#
+Actual output: xx#
+
+User Input 2: iou
+Expected output: #xx
+Actual output: #xx
+
+User Input 2: six
+Expected output: 
++++
+You Guessed Correct!! You Win!!
+Actual output: 
++++
+You Guessed Correct!! You Win!!
+
+
+Test case 2: All incorecct
+Word: six
+
+User Input 1-6: YYY
+Expected output: xxx
+Actual output: xxx
+
+User Input 7: YYY
+Expected output: 
+xxx
+Better Luck Next Time. You Loose
+Actual output: 
+xxx
+Better Luck Next Time. You Loose
+
+Test Case 3: Correct Straight Away 
+Word: six
+User Input: six
+Expected output:
++++
+You Guessed Correct!! You Win!!
+Actual output:
++++
+You Guessed Correct!! You Win!!
+
